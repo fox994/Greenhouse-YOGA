@@ -11,8 +11,8 @@ class TextAnimation {
         this.currentYear = 2011;
         this.isAnimating = false;
         this.textOpacity = 0;
-        this.textScale = 0.8;
-        this.textRadius = 150;
+        this.textScale = 0.5;
+        this.textRadius = 100;
         this.lastUpdate = 0;
         this.updateInterval = 1000 / 30; // 降低更新頻率到30fps
         this.startAnimation();
