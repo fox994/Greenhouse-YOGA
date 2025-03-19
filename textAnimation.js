@@ -94,7 +94,7 @@ class TextAnimation {
         
         // 繪製年份和二氧化碳排放量
         const xPosition = this.canvas.width * 0.2; // 20% 的位置
-        const yPosition = this.canvas.height / 2; // 垂直居中
+        const yPosition = this.canvas.height * 0.4; // 垂直位置調整
         this.drawTextWithEffects(`${this.currentYear}年`, xPosition, yPosition);
         const co2Emission = this.co2Data[this.currentYear] || "數據不可用";
         this.drawTextWithEffects(`二氧化碳排放量: ${co2Emission}`, xPosition, yPosition + 50); // 向下移動50像素
